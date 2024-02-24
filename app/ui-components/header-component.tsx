@@ -25,10 +25,9 @@ export default function Header() {
                 <div className={`flex min-h-screen justify-between p-10`}>
                     {/* My image */}
                     <Image 
-                        className={`shadow-2xl`}
                         src={'my-avatar.svg'}
                         width={550}
-                        height={690}
+                        height={907}
                         alt="Modelo"
                     />
 
