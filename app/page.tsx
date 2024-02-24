@@ -1,7 +1,8 @@
 import Header from "./ui-components/header-component";
 import AboutMe from "./ui-components/about-me";
 import Projects from "./ui-components/projects";
-
+import Skils from "./ui-components/skils";
+import Footer from "./ui-components/footer";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <Header />
       <AboutMe />
       <Projects />
+      <Skils />
+      <Footer />
     </main>
   );
 }

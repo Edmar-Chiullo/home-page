@@ -21,7 +21,7 @@ export default function AboutMe() {
             </div>
 
             {/** My image */}
-            <div id="my-image" className={`absolute right-4 flex w-auto h-auto`}>
+            <div id="my-image" className={`absolute flex right-4 w-auto h-auto`}>
                 <Image 
                     src={'my-avatar-1.svg'}
                     width={550}

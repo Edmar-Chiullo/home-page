@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-/** Esta página eu irei aprensentar meus projetos */
+/** Esta página eu irei aprensentar meus minhas skils */
 
 
-export default function Projects() {
+export default function Skils() {
     const projects = ['Pull-Time', 'C-Movies', 'C-Musics', 'Dashboard', 'Mais-Embreve', 'Mais-Embreve', 'Mais-Embreve'];
 
     return (
