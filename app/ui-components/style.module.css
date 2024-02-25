@@ -1,0 +1,36 @@
+.colors {
+    --background-start-rgb: 0, 0, 0;
+    --btn-header: #A71521;
+    --text-header: #BF1B28;
+    --text-main: #F4F5F3;
+    --bg-cards: #1D1D1D;
+    --gd-left-box: #262626;
+} 
+
+.header {
+    background-color: #000;
+}
+
+.textOla {
+    color: #bf1b29d6;
+}
+
+.text:hover {
+    color: #bf1b29d6;
+}
+
+ .leftbox {
+    width: 500px;
+    background-color: #0D0D0D;
+    box-shadow: #1d1d1da2;
+}
+
+.cards {
+    background-color: #1d1d1d84;
+    width: 400px;
+    height: 400px;
+}
+
+.btnHeader {
+    background-color: #A71521;
+}

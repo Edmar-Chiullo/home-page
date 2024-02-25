@@ -1,10 +1,11 @@
 import Image from "next/image";
+import style from "./style.module.css"
 
 export default function Header() {
 
     return (
         <section id="home" className={`flex flex-col w-full h-full`}>
-            <header className={`flex fixed z-20 gap-1 w-full h-20 p-5 justify-between items-center`}>
+            <header className={`flex fixed z-20 w-full h-20 p-5 justify-between items-center ${style.header}`}>
                 <Image
                     className={`ml-28`} 
                     src={'Liteidtech.svg'}
@@ -13,10 +14,10 @@ export default function Header() {
                     alt="LiteIdTeach"
                 />
                 <ul className={`flex h-14 mr-44 gap-9 justify-center items-center text-white`}>
-                    <li>Home</li>
-                    <li>About-me</li>
-                    <li>Projects</li>
-                    <li>Skils</li>
+                    <li className={`cursor-pointer ${style.text}`}>Home</li>
+                    <li className={`cursor-pointer ${style.text}`}>About-me</li>
+                    <li className={`cursor-pointer ${style.text}`}>Projects</li>
+                    <li className={`cursor-pointer ${style.text}`}>Skils</li>
                 </ul>
             </header>
 
@@ -29,15 +30,16 @@ export default function Header() {
                         width={550}
                         height={907}
                         alt="Modelo"
+                        className="absolute -bottom-10"
                     />
 
                     {/* Description */}
                     <div className={`flex flex-col gap-1 absolute bottom-11 right-48 text-white`}>
-                        <h2 className={`text-xl text-red-700`}>Olá sou Edmar</h2>
+                        <h2 className={`text-xl ${style.textOla}`}>Olá sou Edmar</h2>
                         <p className={`flex flex-wrap mb-5 w-72`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nostrum alias recusandae, architecto est cupiditate.</p>
-                        <div className={`flex justify-center w-40 p-1 rounded-lg bg-red-700`}>
+                        <button className={`flex justify-center w-40 p-1 rounded-lg ${style.btnHeader}`}>
                             <h1 className={`text-3xl`}>About me</h1>
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
