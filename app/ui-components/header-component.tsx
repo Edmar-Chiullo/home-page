@@ -37,8 +37,8 @@ export default function Header() {
                     <div className={`flex flex-col gap-1 absolute bottom-11 right-48 text-white`}>
                         <h2 className={`text-xl ${style.textOla}`}>Olá sou Edmar</h2>
                         <p className={`flex flex-wrap mb-5 w-72`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum nostrum alias recusandae, architecto est cupiditate.</p>
-                        <button className={`flex justify-center w-40 p-1 rounded-lg ${style.btnHeader}`}>
-                            <h1 className={`text-3xl`}>About me</h1>
+                        <button className={`flex justify-center w-40 p-1 rounded-lg hover:brightness-90 ${style.btnHeader}`}>
+                            <h1 className={`text-3xl hover:brightness-90`}>About me</h1>
                         </button>
                     </div>
                 </div>

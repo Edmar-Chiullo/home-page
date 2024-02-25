@@ -25,10 +25,21 @@
     box-shadow: #1d1d1da2;
 }
 
-.cards {
+.myDescripition {
     background-color: #1d1d1d84;
     width: 400px;
     height: 400px;
+}
+
+.boxCards {
+    background-color: #0D0D0D;
+}
+
+
+.cards {
+    background-color: #1d1d1d84;
+    width: 200px;
+    height: 200px;
 }
 
 .btnHeader {

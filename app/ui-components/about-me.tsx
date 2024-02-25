@@ -7,8 +7,8 @@ export default function AboutMe() {
         <section id="about-me" className={`flex relative w-full h-svh`}>
             <div className={`absolute flex justify-center items-center -top-14 left-0 ${style.leftbox} h-svh bg-slate-700 rounded-sm`}>
                 {/** My description and my dream */}
-                <div id="my-description" className={`absolute -right-20 flex justify-center items-center flex-wrap ${style.cards} rounded-sm`}>
-                    <p className={'m-10 text-justify tracking-widest'}>
+                <div id="my-description" className={`absolute -right-20 flex justify-center items-center flex-wrap ${style.myDescripition} rounded-sm`}>
+                    <p className={'m-8 text-justify tracking-widest'}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Corrupti quos ratione amet aliquid iste, repellat aperiam facere error nihil, nemo esse voluptates. 
                         Fugit temporibus illum possimus beatae ullam quis maxime accusantium, aperiam veritatis, ipsa unde. 
