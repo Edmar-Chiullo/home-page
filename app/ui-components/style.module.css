@@ -1,47 +1,28 @@
-.colors {
-    --background-start-rgb: 0, 0, 0;
-    --btn-header: #A71521;
-    --text-header: #BF1B28;
-    --text-main: #F4F5F3;
-    --bg-cards: #1D1D1D;
-    --gd-left-box: #262626;
-} 
 
-.header {
-    background-color: #000;
+.mainTextColor {
+    color: #F4F5F3;
 }
 
-.textOla {
+.secundaryTextColor {
     color: #bf1b29d6;
 }
 
-.text:hover {
+.colorButton {
+    background-color: #BF1B28;
+}
+
+.secundaryPageColor {
+    background-color: #0D0D0D;
+}
+
+.terciaryPageColor {
+    background-color: #1d1d1d84;
+}
+
+.shadowCards {
+    box-shadow: 1px 1px 10px #f4f5f333;
+}
+
+.hoverText:hover {
     color: #bf1b29d6;
-}
-
- .leftbox {
-    width: 500px;
-    background-color: #0D0D0D;
-    box-shadow: #1d1d1da2;
-}
-
-.myDescripition {
-    background-color: #1d1d1d84;
-    width: 400px;
-    height: 400px;
-}
-
-.boxCards {
-    background-color: #0D0D0D;
-}
-
-
-.cards {
-    background-color: #1d1d1d84;
-    width: 200px;
-    height: 200px;
-}
-
-.btnHeader {
-    background-color: #A71521;
 }

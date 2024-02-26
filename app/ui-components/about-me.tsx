@@ -5,9 +5,10 @@ export default function AboutMe() {
 
     return (
         <section id="about-me" className={`flex relative w-full h-svh`}>
-            <div className={`absolute flex justify-center items-center -top-14 left-0 ${style.leftbox} h-svh bg-slate-700 rounded-sm`}>
+            {/** Container reservado para a minha descrição */}
+            <div className={`absolute flex justify-center items-center w-[500px] -top-10 left-0 ${style.secundaryPageColor} h-svh bg-slate-700 rounded-sm`}>
                 {/** My description and my dream */}
-                <div id="my-description" className={`absolute -right-20 flex justify-center items-center flex-wrap ${style.myDescripition} rounded-sm`}>
+                <div id="my-description" className={`absolute top-48 -right-20 flex justify-center items-center flex-wrap ${style.myDescripitionBox} rounded-sm`}>
                     <p className={'m-8 text-justify tracking-widest'}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Corrupti quos ratione amet aliquid iste, repellat aperiam facere error nihil, nemo esse voluptates. 
@@ -21,7 +22,7 @@ export default function AboutMe() {
             </div>
 
             {/** My image */}
-            <div id="my-image" className={`absolute flex right-4 w-auto h-auto`}>
+            <div id="my-image" className={`absolute flex top-24 right-4 w-auto h-auto`}>
                 <Image 
                     src={'my-avatar-1.svg'}
                     width={550}
@@ -29,7 +30,6 @@ export default function AboutMe() {
                     alt="Modelo 2"
                 />
             </div>
-
         </section>
     )
 }
