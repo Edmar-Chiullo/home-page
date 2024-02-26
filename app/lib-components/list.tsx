@@ -6,7 +6,7 @@ export const navigationList = ['Home', 'About-me', 'Projects', 'Skils'];
 /** Esta é uma variavel estão as listas de objetos para aprensentar a lista de projetos realizados por mims */
 export const listProjects = [
     {
-        id: 'em-breve.svg',
+        id: 'a',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -14,7 +14,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'b',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -22,7 +22,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'c',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -30,7 +30,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'd',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -38,7 +38,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'e',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -46,7 +46,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'f',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -54,7 +54,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'em-breve.svg',
+        id: 'g',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -62,7 +62,7 @@ export const listProjects = [
         rerency: []
     },
     {
-        id: 'instagram.png',
+        id: 'h',
         title: '',
         image: 'em-breve.svg',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
@@ -79,7 +79,6 @@ export const listSkils = [
         image: '/icones/html5.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'HyperText Markup Language.',
         link: 'https://developer.mozilla.org/pt-BR/docs/Web/HTML',
         rerency: []
@@ -90,7 +89,6 @@ export const listSkils = [
         image: '/icones/css3.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'Cascading Style Sheets.',
         link: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS',
         rerency: []
@@ -101,7 +99,6 @@ export const listSkils = [
         image: '/icones/js.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'Linguagen de programação..',
         link: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
         rerency: []
@@ -112,7 +109,6 @@ export const listSkils = [
         image: '/icones/reactjs.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'Uma biblioteca para interfaces de usuário web e nativas..',
         link: 'https://react.dev/',
         rerency: []
@@ -123,7 +119,6 @@ export const listSkils = [
         image: '/icones/nextjs.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'Uma estrutura React para a Web..',
         link: 'https://nextjs.org/',
         rerency: []
@@ -134,7 +129,6 @@ export const listSkils = [
         image: '/icones/git.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'Git é um sistema de controle de versão distribuído..',
         link: 'https://git-scm.com/',
         rerency: []
@@ -145,12 +139,43 @@ export const listSkils = [
         image: '/icones/github.png',
         imageStarColor: '/icones/favorito2.png',
         imageStar: '/icones/favorito.png',
-        stars: [1, 2, 3],
         description: 'GitHub é uma plataforma baseada em nuvem onde você pode armazenar..',
         link: 'https://github.com/',
         rerency: []
     }
 ];
+
+export const stars = [
+    {
+        id: 'starYellow1',
+        imageStarYellow: '/icones/yellowStar.png',
+        description: 'Estrerla',
+    },
+    {
+        id: 'starYellow2',
+        imageStarYellow: '/icones/yellowStar.png',
+        description: 'Estrerla',
+    },
+    {
+        id: 'starYellow3',
+        imageStarYellow: '/icones/yellowStar.png',
+        description: 'Estrerla',
+    },
+
+]
+
+export const whiteStar =[ 
+    {
+        id: 'starWhite1',
+        imageStarWhite: '/icones/whiteStar.png',
+        description: 'Estrerla',
+    },
+    {
+        id: 'starWhite2',
+        imageStarWhite: '/icones/whiteStar.png',
+        description: 'Estrerla',
+    },
+]
 
 export const listIcons = [
     {

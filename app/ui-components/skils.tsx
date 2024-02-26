@@ -1,6 +1,6 @@
 import Image from "next/image";
 import style from "./style.module.css";
-import { listSkils } from "../lib-components/list";
+import { listSkils, stars, whiteStar } from "../lib-components/list";
 import Link from "next/link";
 
 /** Esta página eu irei aprensentar meus minhas skils */
@@ -14,7 +14,7 @@ export default function Skils() {
                         return (
                             <div key={skil.id} className={`${style.terciaryPageColor} ${style.shadowCards} flex flex-col justify-between items-center w-[200px] h-[200px] rounded-sm hover:scale-105`}> 
                                 
-                                {/** Aqui estão o icone e o titulo aprentando qual a ferramenta.  */}
+                                {/** Aqui estão o icone e o titulo aprensentando qual a ferramenta.  */}
                                 <div className={`flex justify-start gap-4 w-full h-24 mt-5`}>
                                     <div className={`h-20 ml-2`}>
                                         <Image 
@@ -34,33 +34,35 @@ export default function Skils() {
 
                                 {/** Aqui esta o container em estão as estralas indicando o quanto eu sei sobre determinado ferramenta.  */}
                                 <div className={`flex justify-end gap-1 w-36 h-6`}>
-                                    {skil.stars.map(star => {
-                                        return (
-                                            <div key={`${skil}`} className={`flex h-4 justify-between`}>
-                                                <Image 
-                                                    src={skil.imageStarColor}
-                                                    width={16}
-                                                    height={16}
-                                                    alt={`${skil}`}
-                                                />
-                                            </div>
-                                        )
-                                    })     
-                                    }             
-                                    <Image 
-                                        src={skil.imageStar}
-                                        width={16}
-                                        height={16}
-                                        alt={`${skil}`}
-                                        className="h-4"
-                                    />
-                                    <Image 
-                                        src={skil.imageStar}
-                                        width={16}
-                                        height={16}
-                                        alt={`${skil}`}
-                                        className="h-4"
-                                    />                   
+                                    {stars.map(star => {
+                                            return (
+                                                <div key={`${star.id}}`} className={`flex h-4 justify-between`}>
+                                                    <Image 
+                                                        src={star.imageStarYellow}
+                                                        width={16}
+                                                        height={16}
+                                                        alt={`${star.description}`}
+                                                    />
+                                                </div>   
+                                            )
+                                        })
+                                    }     
+                                    {
+                                        whiteStar.map(star => {
+                                            return(
+                                                <div key={star.id}>
+                                                    <Image 
+                                                        src={star.imageStarWhite}
+                                                        width={16}
+                                                        height={16}
+                                                        alt={`${star.description}`}
+                                                        className="h-4"
+                                                    />
+                                                </div>
+                                            )
+                                            
+                                        })
+                                    }        
                                 </div>
 
                                 {/** Aqui esta o botão saiba mais.*/}

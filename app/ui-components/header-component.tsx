@@ -6,7 +6,6 @@ import { navigationList } from "../lib-components/list";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
-import { colors } from "./style";
 
 export default function Header() {
     const color = '#bf1b29d6'
@@ -35,7 +34,6 @@ export default function Header() {
                     }                    
                 </ul>
             </header>
-
             {/* Container Image and small description about-me */}
             <div className={`flex relative w-full h-auto`}>
                 <div className={`flex min-h-screen justify-between p-10`}>

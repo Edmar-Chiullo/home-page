@@ -8,7 +8,7 @@ export default function AboutMe() {
             {/** Container reservado para a minha descrição */}
             <div className={`absolute flex justify-center items-center w-[500px] -top-10 left-0 ${style.secundaryPageColor} h-svh bg-slate-700 rounded-sm`}>
                 {/** My description and my dream */}
-                <div id="my-description" className={`absolute top-48 -right-20 flex justify-center items-center flex-wrap ${style.myDescripitionBox} rounded-sm`}>
+                <div id="my-description" className={`absolute top-48 -right-20 flex justify-center items-center flex-wrap w-[400px] h-[400px] ${style.terciaryPageColor} ${style.shadowCards} rounded-sm`}>
                     <p className={'m-8 text-justify tracking-widest'}>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                         Corrupti quos ratione amet aliquid iste, repellat aperiam facere error nihil, nemo esse voluptates. 
