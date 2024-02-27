@@ -21,13 +21,13 @@ export default function AboutMe() {
                 </div>  
             </div>
 
-            {/** My image */}
+            {/** Avatar image */}
             <div id="my-image" className={`absolute flex top-24 right-4 w-auto h-auto`}>
                 <Image 
-                    src={'my-avatar-1.svg'}
+                    src={'avatar-1.svg'}
                     width={550}
                     height={550}
-                    alt="Modelo 2"
+                    alt="Avatar 2"
                 />
             </div>
         </section>

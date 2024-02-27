@@ -16,8 +16,8 @@ export default function Header() {
                 <Image
                     className={`ml-28`} 
                     src={'Liteidtech.svg'}
-                    width={120}
-                    height={72}
+                    width={150}
+                    height={102}
                     alt="LiteIdTeach"
                 />
                 <ul className={`flex h-14 mr-44 gap-9 justify-center items-center`}>
