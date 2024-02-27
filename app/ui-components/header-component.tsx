@@ -8,10 +8,8 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
 export default function Header() {
-    const color = '#bf1b29d6'
 
     const pathName = usePathname();
-    console.log(pathName)
     return (
         <section id="home" className={`flex flex-col w-full h-full`}>
             <header className={`flex fixed z-20 w-full h-20 p-5 justify-between items-center bg-black`}>

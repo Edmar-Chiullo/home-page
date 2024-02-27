@@ -26,3 +26,11 @@
 .hoverText:hover {
     color: #bf1b29d6;
 }
+
+.width {
+    width: auto;
+}
+
+.height {
+    height: auto;
+}
