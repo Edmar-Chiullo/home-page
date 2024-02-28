@@ -34,3 +34,52 @@
 .height {
     height: auto;
 }
+
+
+@media(max-width: 1220px) {
+    .mediaContainer {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+
+    }
+}
+
+@media(max-width: 950px) {
+    .mediaContainer {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1.5em;
+        overflow-y: scroll;
+        height: 95%;
+        padding-top: 30px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 300px;  
+    }
+
+    .imageSkils {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sizeTextDescriptionSkils {
+        size: 72px;
+    }
+}
+
+@media(max-width: 860px) {
+    .mediaContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .cards {
+        width: 500px;
+        height: 500px;  
+    }
+
+    .imageSkils {
+        width: 96px;
+        height: 96px;
+    }
+}

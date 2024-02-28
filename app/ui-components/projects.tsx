@@ -9,11 +9,11 @@ export default function Projects() {
 
     return (
         <section id="projects" className={`flex justify-center items-center w-full h-svh`}>
-            <div className={`${style.secundaryPageColor} grid grid-cols-4 grid-rows-2 justify-items-center items-center w-3/4 h-4/5 rounded`}>
+            <div className={`${style.mediaContainer} ${style.secundaryPageColor} grid grid-cols-4 grid-rows-2 justify-items-center items-center w-3/4 h-4/5 rounded`}>
                 {
                     listProjects.map((project) => {
                         return (
-                            <div key={project.id} className={`${style.terciaryPageColor} ${style.shadowCards} flex flex-col justify-between items-center w-[200px] h-[200px] rounded-md hover:scale-105`}> 
+                            <div key={project.id} className={`${style.terciaryPageColor} ${style.shadowCards} ${style.cards } flex flex-col justify-between items-center w-[200px] h-[200px] rounded-md hover:scale-105`}> 
                                 <h1>{project.title}</h1>
                                 <Image 
                                     src={project.image}

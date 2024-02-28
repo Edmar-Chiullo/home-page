@@ -8,11 +8,11 @@ export default function Skils() {
 
     return (
         <section id="skils" className={`flex justify-center items-center w-full h-svh`}>
-            <div className={`${style.secundaryPageColor} ${style.shadowCards} grid grid-cols-4 grid-rows-2 justify-items-center items-center w-3/4 h-3/4 rounded-sm`}>
+            <div className={`${style.mediaContainer} ${style.secundaryPageColor} ${style.shadowCards} grid grid-cols-4 grid-rows-2 justify-items-center items-center w-3/4 h-3/4 rounded-sm`}>
                 {
                     listSkils.map(skil => {
                         return (
-                            <div key={skil.id} className={`${style.terciaryPageColor} ${style.shadowCards} flex flex-col justify-between items-center w-[200px] h-[200px] rounded-sm hover:scale-105`}> 
+                            <div key={skil.id} className={`${style.terciaryPageColor} ${style.shadowCards} ${style.cards } flex flex-col justify-between items-center w-[200px] h-[200px] rounded-sm hover:scale-105`}> 
                                 
                                 {/** Aqui estão o icone e o titulo aprensentando qual a ferramenta.  */}
                                 <div className={`flex justify-start gap-4 w-full h-24 mt-5`}>
@@ -22,12 +22,13 @@ export default function Skils() {
                                             width={64}
                                             height={64}
                                             alt={`${skil}`}
+                                            className={style.imageSkils}
                                         />
                                     </div>
                                     
                                     <div>
                                         <h1>{skil.title}</h1>
-                                        <p className={`text-left text-xs`}>{skil.description}</p>
+                                        <p className={`text-left text-xs ${style.sizeTextDescriptionSkils}`}>{skil.description}</p>
                                     </div>
                                     {/***/}
                                 </div>

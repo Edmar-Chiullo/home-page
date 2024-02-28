@@ -7,7 +7,7 @@ import clsx from "clsx"
 export default function Footer() {
 
     return (
-        <footer className={`flex justify-between items-center w-full h-40 `}>
+        <footer className={`flex justify-between items-end w-full h-[490px] p-3`}>
             <div className={`w-72`}>
 
             </div>
