@@ -17,7 +17,7 @@ export default function Header() {
             <header className={`flex fixed z-20 w-full h-20 p-5 justify-between items-center bg-black`}>
                 <Image
                     className={`${style.logo} ml-28`} 
-                    src={'Liteidtech.svg'}
+                    src={'DESIGNI.svg'}
                     width={150}
                     height={102}
                     alt="LiteIdTeach"

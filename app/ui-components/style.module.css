@@ -200,6 +200,19 @@
         width: 72px;
         height: 72px;
     }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .div {
+        display: none;
+    }
+
+    .navFooter {
+        display: none;
+    }
 }
 
 @media(max-width: 750px) {

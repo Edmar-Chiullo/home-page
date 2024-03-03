@@ -7,8 +7,8 @@ import clsx from "clsx"
 export default function Footer() {
 
     return (
-        <footer className={`flex justify-between items-end w-full h-[490px] p-3`}>
-            <div className={`w-72`}>
+        <footer className={`${style.footer} flex justify-between items-end w-full h-[490px] p-3`}>
+            <div className={`div w-72`}>
 
             </div>
             <div className={`relative flex w-96 h-36`}>
@@ -31,8 +31,8 @@ export default function Footer() {
                     }
                 </ul>
             </div>
-            <div className={`flex items-end h-36`}>
-                <ul className={`pr-10`}>
+            <div className={`${style.footer} flex items-end h-36`}>
+                <ul className={`${style.navFooter} pr-10`}>
                     {
                         navigationList.map(element => {
                             return (
