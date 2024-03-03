@@ -27,24 +27,36 @@
     color: #bf1b29d6;
 }
 
-.width {
-    width: auto;
+.menuToggle {
+    display: none;
 }
 
-.height {
-    height: auto;
-}
-
+/* Break points */
 
 @media(max-width: 1220px) {
     .mediaContainer {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
+        row-gap: 1.5em;
+        overflow-y: scroll;
+    }
 
+    .avatarHeader {
+        width: 450px;
+        height: 807px;
+        bottom: -180px;
+    }
+
+    .myPresentationContainer {
+        width: 300px;
+        height: 210px;
+        padding: 10px;
+        right: 70px;
     }
 }
 
-@media(max-width: 950px) {
+@media(max-width: 980px) {
+    
     .mediaContainer {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 1.5em;
@@ -53,33 +65,258 @@
         padding-top: 30px;
     }
 
+    .avatarHeader {
+        width: 430px;
+        height: 788px;
+        bottom: -180px;
+        left: -20px;
+    }
+
+    .myPresentationContainer {
+        width: 280px;
+        height: 180px;
+        padding: 10px;
+    }
+
+    .myPresentationContainer h1 {
+        font-size: 24px;
+    }
+
+    .myPresentationContainer p {
+        font-size: 14px;
+    }
+
+    .myPresentationContainer button {
+        width: 130px;
+        font-size: 14px;
+
+    }
+
+    .myDescripionAbout {
+        width: 350px;
+        height: 350px;
+        font-size: 14px;
+        left: 120px;
+    }
+
+    .avatarAbout {
+        right: 20px;
+    }
+
     .cards {
-        width: 300px;
-        height: 300px;  
+        width: 250px;
+        height: 250px;
+        padding: 8px;  
     }
 
     .imageSkils {
-        width: 120px;
-        height: 120px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
     }
 
     .sizeTextDescriptionSkils {
-        size: 72px;
+        font-size: 16px;
+    }
+
+    .btns {
+        width: 120px;
+        height: 40px;
     }
 }
 
 @media(max-width: 860px) {
-    .mediaContainer {
-        grid-template-columns: repeat(1, 1fr);
+    .header {
+        padding: 3px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .navBar {
+        display: none;
+    }
+
+    .menuToggle {
+        display: flex;
+        flex-direction: column;
+        width: 28px;
+        height: 50px;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .myDescripionAbout {
+        width: 320px;
+        height: 320px;
+        font-size: 12px;
+        left: 60px;
+    }
+
+    .avatarAbout {
+        width: 500px;
+        height: 500px;
+        right: 80px;
     }
     
+    .myDescripionAbout {
+        width: 400px;
+        height: 400px;
+        font-size: 16px;
+        left: 190px;
+    }
+
+    .avatarAbout {
+        display: none;
+    
+    }
+
     .cards {
-        width: 500px;
-        height: 500px;  
+        width: 220px;
+        height: 220px;
+
+    }
+    
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .sizeTextDescriptionSkils {
+        font-size: 14px;
+    }
+    
+    .cards  {
+        width: 220px;
+        height: 220px;  
     }
 
     .imageSkils {
-        width: 96px;
-        height: 96px;
+        width: 72px;
+        height: 72px;
+    }
+}
+
+@media(max-width: 750px) {
+    .mediaContainer {
+        row-gap: 1.5em;
+        width: 90%;
+        height: 95%;
+        padding-top: 60px;
+    }
+
+    
+    .myDescripionAboutContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .myDescripionAbout {
+        width: 400px;
+        height: 400px;
+        margin: 10em;
+        font-size: 16px;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .cards {
+        width: 200px;
+        height: 200px;
+        padding: 3px;  
+    }
+
+    .btns {
+        width: 130px;
+        height: 30px;
+    }
+
+    .imageSkils {
+        width: 60px;
+        height: 60px;
+    }
+
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .sizeTextDescriptionSkils {
+        font-size: 14px;
+    }
+
+    .stars {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media (max-width: 660px) {
+    .headerContainer {
+        justify-content: start;
+    }
+
+    .avatarHeader {
+        opacity: 0.5;
+    }
+}
+
+@media(max-width: 500px) {
+    .mediaContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .avatarHeader {
+        display: none;
+    }
+
+    .myDescripionAbout {
+        width: 25em;
+        height: 25em;
+        overflow-y: scroll;
+    }
+
+    .myDescripionAbout p {
+        font-size: 16px;
+    }
+
+    .cards {
+        width: 300px;
+        height: 300px;
+        padding: 8px;  
+    }
+
+    .btns {
+        width: 140px;
+        height: 40px;
+    }
+
+    .imageSkils {
+        width: 90px;
+        height: 90px;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .sizeTextDescriptionSkils {
+        font-size: 16px;
+    }
+
+    .stars {
+        width: 20px;
+        height: 20px;
     }
 }
