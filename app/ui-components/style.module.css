@@ -206,8 +206,8 @@
         justify-content: center;
     }
 
-    .footer .div {
-        display: none;
+    .iconList {
+        width: 200px;
     }
 
     .navFooter {
@@ -272,6 +272,17 @@
         width: 15px;
         height: 15px;
     }
+
+    .navFooter {
+        width: 100%;
+        left: 100px;    
+    }
+
+    .footer {
+        width: 100%;
+        justify-content: center;
+        margin: 0, 0, 0, 0;
+    }
 }
 
 @media (max-width: 660px) {
@@ -282,6 +293,10 @@
     .avatarHeader {
         opacity: 0.5;
     }
+
+    .navFooter {
+        background-color: #BF1B28;
+    }
 }
 
 @media(max-width: 500px) {
@@ -290,7 +305,7 @@
     }
 
     .avatarHeader {
-        display: none;
+        left: 50px;
     }
 
     .myDescripionAbout {
@@ -331,5 +346,63 @@
     .stars {
         width: 20px;
         height: 20px;
+    }
+}
+
+@media(max-width: 440px) {
+    .myPresentationContainer {
+        width: 250px;
+        height: 150px;
+        padding: 8px;
+    }
+
+    .myPresentationContainer h1 {
+        font-size: 22px;
+    }
+
+    .myPresentationContainer p {
+        font-size: 12px;
+    }
+
+    .myPresentationContainer button {
+        width: 110px;
+        font-size: 12px;
+
+    }
+    .myDescripionAbout {
+        width: 22em;
+        height: 35em;
+        margin: auto;
+        font-size: 14px;
+        left: 5px;
+    }
+
+
+
+}
+
+@media(max-width: 350px) {
+    .myPresentationContainer {
+        width: 200px;
+        height: 100px;
+        bottom: 100px;
+        padding: 8px;
+        left: 10px;
+    }
+
+    .myPresentationContainer button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        height: 40px;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    .iconList {
+        width: 100%;
+        left: -50px;
+        bottom: 20px;
     }
 }

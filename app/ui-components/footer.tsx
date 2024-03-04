@@ -12,7 +12,7 @@ export default function Footer() {
 
             </div>
             <div className={`relative flex w-96 h-36`}>
-                <ul className={`absolute bottom-2 flex gap-4`}>
+                <ul className={`${style.iconList} absolute bottom-2 flex gap-4`}>
                    {
                         listIcons.map(icon => {
                             return (
@@ -31,7 +31,7 @@ export default function Footer() {
                     }
                 </ul>
             </div>
-            <div className={`${style.footer} flex items-end h-36`}>
+            <div className={`flex items-end h-36`}>
                 <ul className={`${style.navFooter} pr-10`}>
                     {
                         navigationList.map(element => {
